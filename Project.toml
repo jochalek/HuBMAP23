@@ -1,7 +1,24 @@
 name = "HuBMAP23"
 authors = ["jochalek"]
-[compat]
-julia = "1.9.2"
-DrWatson = "2.12.7"
+
 [deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+DataAugmentation = "88a5189c-e7ff-4f85-ac6b-e6158070f02e"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ImageSegmentation = "80713f31-8817-5129-9cf8-209ff8fb23e1"
+ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
+Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
+PolygonOps = "647866c9-e3ac-4575-94e7-e3d426903924"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
+
+[compat]
+DrWatson = "2.12.7"
+julia = "1.9.2"

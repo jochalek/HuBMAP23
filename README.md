@@ -1,5 +1,7 @@
 # HuBMAP23
 
+Last minute attempt to make a submission to https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature in a weekend. Unfinished.
+
 This code base is using the [Julia Language](https://julialang.org/) and
 [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
